@@ -1,0 +1,12 @@
+{
+  "name": "ascii95-password-generator",
+  "version": "1.0.0",
+  "description": "JavaScript tool to generate 10 random passwords",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "ascii95-password-generator": "./index.js"
+  },
+  "author": "aizethara",
+  "license": "MIT"
+}
