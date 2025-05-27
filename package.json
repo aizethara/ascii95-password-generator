@@ -7,6 +7,14 @@
   "bin": {
     "ascii95-password-generator": "./index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aizethara/ascii95-password-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aizethara/ascii95-password-generator/issues"
+  },
+  "homepage": "https://github.com/aizethara/ascii95-password-generator#readme",
   "author": "aizethara",
   "license": "MIT"
 }
