@@ -1,13 +1,15 @@
-const readline = require('readline').createInterface({
+import readline from 'readline';
+
+const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout
 });
 
-readline.question('\nEnter password length: ', input => {
+rl.question('\nEnter password length: ', input => {
   const length = parseInt(input);
   if (isNaN(length) || length <= 0) {
     console.log('Invalid length!');
-    readline.close();
+    rl.close();
     return;
   }
 
@@ -24,5 +26,5 @@ readline.question('\nEnter password length: ', input => {
     console.log(password(length));
   }
   
-  readline.close();
+  rl.close();
 });
